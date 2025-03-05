@@ -56,7 +56,7 @@ const AppRoutes = () => {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-trainings">
       <AuthProvider>
         <AppRoutes />
       </AuthProvider>
